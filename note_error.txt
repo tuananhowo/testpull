@@ -1,4 +1,4 @@
-đăng ký:
+đăng ký: abc
 
 	*UI
 	padding:60

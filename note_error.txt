@@ -1,0 +1,50 @@
+đăng ký:
+
+	*UI
+	padding:60
+	svg asset. avatar
+	sizedbox()1:26
+
+	*logic
+	user name:  maxlength / trim()
+	password: khớp
+		
+đăng nhập:
+
+	*UI
+	checkbox
+	set language
+
+	*logic
+	username action alert
+	pass is not empty
+	
+quên mật khẩu:	
+
+	*UI
+	text
+
+
+	*logic
+	back	
+	
+thêm/sửa/xóa nhà:
+	UI: 
+	thêm - stack
+	sửa - sizedboxx
+	xóa - text dialog
+	 
+
+	logic: 
+	thêm - continue => back
+	sửa - cho phép sửa tên
+	xóa: - dialog action onpess pop
+thông tin tài khoản:
+	ui: 
+	action camera 
+	sized box 
+ 	195 top
+
+	logic
+	max length 3 
+	title changename faild / success
